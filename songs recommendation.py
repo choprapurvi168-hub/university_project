@@ -1,5 +1,6 @@
 import webbrowser
 import random
+import time
 
 # Dictionary of moods and songs (English + Hindi + Punjabi)
 songs = {
@@ -47,11 +48,15 @@ if mood in songs:
     # Pick a random song
     recommendation = random.choice(songs[mood])
     print(f"Your mood-based suggestion: {recommendation}")
+    print("Opening YouTube in your browser...")
+
+    time.sleep(30)
     
     # Open YouTube search
     query = f"{mood} {recommendation} song"
     url = f"https://www.youtube.com/results?search_query={query}"
     webbrowser.open(url)
-    print("Opening YouTube in your browser...")
+
 else:
     print("Sorry, mood not found! Try again with happy/sad/angry/relaxed/energetic.")
+
