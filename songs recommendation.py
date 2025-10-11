@@ -50,7 +50,7 @@ if mood in songs:
     print(f"Your mood-based suggestion: {recommendation}")
     print("Opening YouTube in your browser...")
 
-    time.sleep(30)
+    time.sleep(5)
     
     # Open YouTube search
     query = f"{mood} {recommendation} song"
@@ -59,4 +59,5 @@ if mood in songs:
 
 else:
     print("Sorry, mood not found! Try again with happy/sad/angry/relaxed/energetic.")
+
 
