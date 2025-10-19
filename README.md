@@ -26,6 +26,10 @@ b) random
 Built-in Python module.
 Helps you pick random items from a list.
 Users get different songs each time for the same mood.
+c) time
+Built-in Python module.
+Used for adding delays or pauses between actions.
+Pause program execution for a set amount of seconds (time.sleep())
 
 ## 👥 Team Members
 - Purvi Chopra  
