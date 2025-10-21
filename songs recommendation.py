@@ -16,7 +16,8 @@ songs = {
         "Channa Mereya Arijit Singh",
         "Waqt Ki Baatein Dream Note",
         "Fix You Coldplay",
-        "Pachtaoge Arijit Singh"
+        "Pachtaoge Arijit Singh",
+        "Channa mereya"
     ],
     "angry": [
         "In The End Linkin Park",
@@ -37,7 +38,14 @@ songs = {
         "Zinda Bhaag Milkha Bhaag",
         "Kala Chashma Baar Baar Dekho",
         "Stronger Kanye West",
-        "Proper Patola Diljit Dosanjh"
+        "Proper Patola Diljit Dosanjh",
+        "Na Ja",
+        "Gulaabo",
+        "Kar gyi chull",
+        "Tan Tana Tan Tan Taara",
+        "Muqabla",
+        "Blue (Da Ba Dee)",
+        
     ]
 }
 
@@ -59,6 +67,7 @@ if mood in songs:
 
 else:
     print("Sorry, mood not found! Try again with happy/sad/angry/relaxed/energetic.")
+
 
 
 
