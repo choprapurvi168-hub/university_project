@@ -9,7 +9,13 @@ songs = {
         "Gallan Goodiyaan Dil Dhadakne Do",
         "Lover Diljit Dosanjh",
         "Can't Stop the Feeling Justin Timberlake",
-        "Laung Laachi Mannat Noor"
+        "Ek Ladki Bheegi Bhaagi",
+        "Yeh Sham Mastani",
+        "Count on Me",
+        "Can’t Stop the Feeling!",
+        "Barso Re",
+        "O Mere Dil Ke Chain",
+        "Churaliya Hai Tumne Jo Dil Ko"
     ],
     "sad": [
         "Someone Like You Adele",
@@ -17,35 +23,47 @@ songs = {
         "Waqt Ki Baatein Dream Note",
         "Fix You Coldplay",
         "Pachtaoge Arijit Singh",
-        "Channa mereya"
+        "Channa mereya",
+        "Such Keh Raha Hai",
+        "Piya Aaye Na",
+        "Sochan Vich Tu",
+        "Someone Like You"
     ],
     "angry": [
         "In The End Linkin Park",
         "Bhaag DK Bose Delhi Belly",
         "Break Stuff Limp Bizkit",
         "Azaadi Gully Boy",
-        "Dope Shope Honey Singh"
+        "Dope Shope Honey Singh",
+        "In the End",
+        "Shooter",
+        "Dil Dhadakne Do",
+        "Brown Munde",
+        "Dhaakad"
     ],
     "relaxed": [
         "Weightless Marconi Union",
         "Raabta Agent Vinod",
         "Ocean Eyes Billie Eilish",
-        "Tera Yaar Hoon Main Arijit Singh",
-        "Excuses Ap Dhillon"
+        "Excuses Ap Dhillon",
+        "Yeh Raatein Yeh Mausam",
+        "Lag ja Gale",
+        "Chura Liya Hai Tumne Jo Dil Ko",
+        "Stand by Me",
+        "Can’t Help Falling in Love",
+        "Excuses"
     ],
     "energetic": [
         "Thunderstruck AC DC",
         "Zinda Bhaag Milkha Bhaag",
         "Kala Chashma Baar Baar Dekho",
-        "Stronger Kanye West",
         "Proper Patola Diljit Dosanjh",
         "Na Ja",
         "Gulaabo",
         "Kar gyi chull",
         "Tan Tana Tan Tan Taara",
-        "Muqabla",
-        "Blue (Da Ba Dee)",
-        
+        "Badan Pe Sitare",
+        "3 Peg"
     ]
 }
 
@@ -67,6 +85,7 @@ if mood in songs:
 
 else:
     print("Sorry, mood not found! Try again with happy/sad/angry/relaxed/energetic.")
+
 
 
 
