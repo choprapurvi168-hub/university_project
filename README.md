@@ -1,4 +1,4 @@
-# university_project
+# Music Recommendation System
 python group project - songs recommendation system based on mood
 
 ## 📘 About the Project
